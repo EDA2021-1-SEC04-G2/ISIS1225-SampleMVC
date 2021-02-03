@@ -76,7 +76,7 @@ while True:
         tags = loadTags()
         print('Total de tags cargados: ' + str(lt.size(tags)))
     elif int(inputs[0]) == 3:
-        print("Cargando informacion de identificadores....")
+        print("Cargando informacion de identificadores...")
     else:
         sys.exit(0)
 sys.exit(0)
